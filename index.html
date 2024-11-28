@@ -66,11 +66,11 @@
 
         function mostrarInformacion() {
             const proyectoInfo = `
-                <h2 class="text-primary">Área Técnica: ${datos.areaTecnica}</h2>
-                <h2 class="text-primary">Código de Definición: ${datos.codigoDefinicion}</h2>
-                <h2 class="text-primary">Nombre del Proyecto: ${datos.nombreProyecto}</h2>
-                <h2 class="text-primary">Disponibilidad Presupuestaria: $${datos.disponibilidadPresupuestaria.toLocaleString()}</h2>
-                <h2 class="text-primary">Items del Proyecto</h2>
+                <h2><span class="text-primary">Área Técnica: </span><span class="text-secundary">${datos.areaTecnica}</span></h2>
+                <h2><span class="text-primary">Código de Definición: </span><span class="text-secundary">${datos.codigoDefinicion}</span></h2>
+                <h2><span class="text-primary">Nombre del Proyecto: </span><span class="text-secundary">${datos.nombreProyecto}</span></h2>
+                <h2><span class="text-primary">Disponibilidad Presupuestaria: </span><span class="text-secundary">$${datos.disponibilidadPresupuestaria.toLocaleString()}</span></h2>
+                <h2><span class="text-primary">Items del Proyecto</span></h2>
             `;
 
             let itemsHTML = '';
